@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 #define sr_arif
@@ -34,7 +34,7 @@ void main()
 			sum += arr[i][j];
 		}
 	}
-	cout << "Ñðåäíåå àðèôìèòè÷åñêîå ìàññèâà: " << sum / (ROWS * COLS);
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼Ð¸Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << sum / (ROWS * COLS);
 #endif // sr_arif
 #ifdef max
 	int max = arr[ROWS][COLS];
@@ -48,7 +48,7 @@ void main()
 			}
 		}
 	}
-	cout << "Ìàêñèìàëüíîå çíà÷åíèå â ìàññèâå: " << max;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ: " << max;
 #endif // max
 #ifdef min
 	int min = arr[ROWS][COLS];
@@ -62,10 +62,10 @@ void main()
 			}
 		}
 	}
-	cout << "Ìèíèìàëüíî çíà÷åíèå â ìàññèâå: " << min;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ: " << min;
 #endif // min
 
-	cout << "Îòñîðòèðîâàííûé ìàññèâ: " << endl;
+	cout << "ÐžÑ‚ÑÐ¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²: " << endl;
 	for (int i = 0; i < ROWS; i++)
 	{
 		for (int j = 0; j < COLS; j++)
